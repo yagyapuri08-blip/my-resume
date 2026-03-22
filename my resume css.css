@@ -1,0 +1,97 @@
+body {
+    font-family: 'Outfit', sans-serif;
+    margin: 0;
+    background: #0a0a0a;
+    color: #e5e5e5;
+}
+
+/* HEADER */
+header {
+    text-align: center;
+    padding: 40px;
+    background: #000;
+    border-bottom: 2px solid #ff2e88;
+}
+
+.tagline {
+    color: #ff2e88;
+}
+
+/* NAV */
+nav {
+    text-align: center;
+    padding: 12px;
+    background: #111;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #ccc;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #ff2e88;
+}
+
+/* SECTIONS */
+section {
+    background: #111;
+    margin: 20px;
+    padding: 25px;
+    border-radius: 12px;
+    border: 1px solid #222;
+    transition: 0.3s;
+}
+
+section:hover {
+    border-color: #ff2e88;
+    transform: translateY(-3px);
+}
+
+/* IMAGE */
+#about img {
+    width: 120px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* GIF */
+.gif {
+    width: 100px;
+    display: block;
+    margin: 10px auto;
+    opacity: 0.8;
+}
+
+/* ARTICLES */
+article {
+    margin-bottom: 15px;
+    padding-left: 10px;
+    border-left: 3px solid #ff2e88;
+}
+
+/* TABLE */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background: #ff2e88;
+    color: white;
+}
+
+td, th {
+    padding: 10px;
+    border: 1px solid #333;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #000;
+    color: #888;
+}
